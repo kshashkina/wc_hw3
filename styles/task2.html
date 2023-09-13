@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrollable Table</title>
+    <link id="style-link" rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"/>
+
+</head>
+<body>
+<h1>Scrollable Table</h1>
+
+<div class="theme-buttons">
+    <button id="style1-button">Style 1</button>
+    <button id="style2-button">Style 2</button>
+    <button id="style3-button">Style 3</button>
+</div>
+
+<div class="table-container">
+    <table>
+        <thead>
+        <tr>
+            <th><i class="fa-solid fa-i" style="color: #ffffff;"></i> - Item</th>
+            <th><i class="fa-solid fa-star" style="color: #ffffff;"></i> - Quantity</th>
+            <th><i class="fa-solid fa-barcode" style="color: #ffffff;"></i> - Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Product A</td>
+            <td>10</td>
+            <td>$15.99</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>5</td>
+            <td>$10.49</td>
+        </tr>
+        <tr>
+            <td>Product C</td>
+            <td>15</td>
+            <td>$20.99</td>
+        </tr>
+        <tr>
+            <td>Product D</td>
+            <td>34</td>
+            <td>$1.49</td>
+        </tr>
+        <tr>
+            <td>Product E</td>
+            <td>12</td>
+            <td>$2.99</td>
+        </tr>
+        <tr>
+            <td>Product F</td>
+            <td>10</td>
+            <td>$14.99</td>
+        </tr>
+        <tr>
+            <td>Product G</td>
+            <td>7</td>
+            <td>$34.99</td>
+        </tr>
+        <tr>
+            <td>Product H</td>
+            <td>18</td>
+            <td>$17.99</td>
+        </tr>
+        <tr>
+            <td>Product I</td>
+            <td>20</td>
+            <td>$13.49</td>
+        </tr>
+        <tr>
+            <td>Product J</td>
+            <td>9</td>
+            <td>$21.99</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    document.getElementById('style1-button').addEventListener('click', () =>
+    {
+        document.getElementById('style-link').href = 'style1.css';
+    });
+    document.getElementById('style2-button').addEventListener('click', () =>
+    {
+        document.getElementById('style-link').href = 'style2.css';
+    });
+    document.getElementById('style3-button').addEventListener('click', () =>
+    {
+        document.getElementById('style-link').href = 'style3.css';
+    });
+</script>
+</body>
+</html>
