@@ -1,0 +1,36 @@
+.table-container {
+    max-height: 200px;
+    overflow: auto;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2px;
+    text-align: left;
+}
+
+/* Header styles */
+th {
+    background-color: indigo;
+    color: white;
+}
+
+/* Odd and even row styles */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Outer table border */
+table {
+    border: 2px solid #ccc;
+}
+
+/* Inner table border (cells) */
+td {
+    border: 3px solid #ccc;
+}
